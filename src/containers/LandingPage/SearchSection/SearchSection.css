@@ -1,0 +1,54 @@
+.search-section .cardArea {
+  border: 1px solid #FFD0CC;
+}
+.search-section .search-card {
+  margin: 0;
+  box-shadow: none;
+  border: 0;
+  width: 248px !important;
+}
+.search-section .search-cardHeader img {
+  max-width: 100%;
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 10px !important;
+}
+.search-section .search-cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 5px;
+}
+.search-section .location {
+  font-size: 12px;
+  font-weight: 600;
+}
+.search-section .location img {
+  width: 8px;
+  height: 12px;
+  margin-bottom: 3px;
+}
+.search-section .location {
+  display: block;
+  text-align: left;
+  color: #000;
+}
+.search-section .location-name {
+  font-family: 'Yu Gothic';
+  font-weight: 500;
+  font-size: 18px;
+  display: block;
+  text-align: left;
+  color: #000;
+}
+.search-section .price {
+  text-align: right;
+  display: block;
+  font-family: 'Yu Gothic';
+  font-weight: 500;
+  font-size: 18px;
+  padding-top: 2px;
+  color: #000;
+}

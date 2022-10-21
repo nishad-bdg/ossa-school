@@ -1,0 +1,110 @@
+.popular-location-titleSearchCountry {
+    /* color: white; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 48px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.prev-nextSearchCountry {
+    /* margin: auto; */
+    /* margin-left: auto; */
+    margin-top: -80px;
+}
+
+.img-sliderSearchCountry {
+    height: 260px;
+    width: 50%
+}
+
+
+
+#main-slider-containerSearchCountry {
+    width: 90%;
+    height: 305px;
+}
+
+#sliderSearchCountry {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+#sliderSearchCountry::-webkit-scrollbar {
+    display: none;
+}
+
+#main-slider-containerSearchCountry {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.slider-card-titleSearchCountry,
+.slider-card-descriptionSearchCountry {
+    margin: 5px 0px 5px 10px;
+}
+
+.slider-card-titleSearchCountry {
+    font-weight: 400;
+    font-size: 20px;
+    /* color: white; */
+    margin-top: 10px;
+    /* color: black; */
+    padding-top: 55%;
+}
+
+.slider-card-descriptionSearchCountry {
+    opacity: 1;
+    font-size: 13px;
+}
+
+.slider-card-imageSearchCountry {
+    width: 100%;
+    height: 220px;
+    background-color: rgb(240 240 240 / 80%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.slider-icon.leftSearchCountry,
+.slider-icon.rightSearchCountry {
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+    cursor: pointer;
+}
+
+.slider-icon.leftSearchCountry {
+    /* left: 0; */
+}
+
+.slider-icon.rightSearchCountry {
+    right: 0;
+}
+
+.slider-icon.leftSearchCountry:hover,
+.slider-icon.rightSearchCountry:hover {
+    opacity: 1;
+}
+
+
+.slider-cardSearchCountry {
+    width: 33%;
+    height: 218px;
+    background: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%); */
+    cursor: pointer;
+}

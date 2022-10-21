@@ -1,0 +1,6 @@
+.famous-city-slider .slider img {
+  width: 92%;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}

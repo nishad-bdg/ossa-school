@@ -1,0 +1,569 @@
+{
+  "areas": [
+    {
+      "id": 1,
+      "country_code": "USA",
+      "area_name_ja": "ロサンゼルス",
+      "area_name_en": "Los Angeles",
+      "popular_rate": 1,
+      "thumbnail": "los-angeles.jpg",
+      "lang": -118.243683,
+      "lat": 34.052235,
+      "discription": "カリフォルニア州南部に位置し、全米第2位の人口を誇る大都市。ハリウッドやビバリーヒルズ、サンタモニカなど有名な観光地も多数ある、アメリカ西の玄関口です。"
+    },
+    {
+      "id": 2,
+      "country_code": "USA",
+      "area_name_ja": "サンディエゴ",
+      "area_name_en": "San Diego",
+      "thumbnail": "san-diego.jpg",
+      "lang": -117.161087,
+      "lat": 32.715736,
+      "discription": "カリフォルニア州随一のビーチシティであるサンディエゴ。年間通して温暖な気候が続き、12キロにも及ぶ沿岸部からは美しい太陽の光が降りそそぐ、カリフォルニア発祥の地です。"
+    },
+    {
+      "id": 3,
+      "country_code": "USA",
+      "area_name_ja": "サンフランシスコ",
+      "area_name_en": "San Francisco",
+      "thumbnail": "san-francisco.jpg",
+      "lang": -122.431297,
+      "lat": 37.773972,
+      "discription": "スタートアップの聖地シリコンバレーも位置するサンフランシスコ。美しい海沿いの街とユニークな文化が、訪れる人々を魅了します。"
+    },
+    {
+      "id": 4,
+      "country_code": "USA",
+      "area_name_ja": "ニューヨーク",
+      "area_name_en": "New York",
+      "popular_rate": 2,
+      "thumbnail": "new-york.jpg",
+      "lang": -73.935242,
+      "lat": 40.730610,
+      "discription": "アメリカ最大の都市であり、『眠らない街』とも呼ばれる世界経済の中心地。ファッションやアート、音楽やデザインなど、超一流で世界最先端が集まる文化都市です。"
+    },
+    {
+      "id": 5,
+      "country_code": "USA",
+      "area_name_ja": "ボストン",
+      "area_name_en": "Boston",
+      "lang": -71.057083,
+      "lat": 42.361145,
+      "discription": "アメリカが誇る名門大学や研究機関が集まる学術都市です。歴史的なレンガ造りの建物が並び、中世の街並みを味わうことができます。",
+      "thumbnail": "boston.jpg"
+    },
+    {
+      "id": 6,
+      "country_code": "USA",
+      "area_name_ja": "マイアミ",
+      "area_name_en": "Miami",
+      "lang": -80.191788,
+      "lat": 25.761681,
+      "discription": "アメリカフロリダ州の南東に位置するマイアミは、白い砂浜に美しい海が特徴のリゾート地です。都市型リゾートとして生活に不便なく過ごすことができます。"
+    ,"thumbnail": "miami.jpg"
+    },
+    {
+      "id": 7,
+      "country_code": "USA",
+      "area_name_ja": "シカゴ",
+      "area_name_en": "Chicago",
+      "lang": -87.623177,
+      "lat": 41.881832,
+      "discription": "ニューヨーク、ロサンゼルスに次ぐ、イリノイ州に位置する3番目の大都市。アメリカ国内でも標準的な英語が使用されている都市と言われています。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 8,
+      "country_code": "USA",
+      "area_name_ja": "シアトル",
+      "area_name_en": "Seattle",
+      "lang": -122.335167,
+      "lat": 47.608013,
+      "discription": "カナダとの国境に位置し、\u0004通称『エメラルド・シティ』と呼ばれるシアトル。美しい緑や水、山などの自然に囲まれた都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 9,
+      "country_code": "USA",
+      "area_name_ja": "ホノルル",
+      "area_name_en": "Honolulu",
+      "popular_rate": 3,
+      "lang": -157.858093,
+      "lat":  21.315603,
+      "discription": "ハワイ州オアフ島に位置するホノルル。年間を通し温暖な気候で過ごしやすく、またフラダンスやサーフィン、ヨガやダイビングなどアクティビティも充実している人気の都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 10,
+      "country_code": "CAN",
+      "area_name_ja": "バンクーバー",
+      "area_name_en": "Vancouver",
+      "popular_rate": 1,
+      "lang": -123.116226,
+      "lat": 49.246292,
+      "discription": "カナダ西部に位置する第3の都市バンクーバーは、海と山脈に囲まれており、大都市でありながら自然と調和する美しい街です。語学学校も多く人気の留学先です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 11,
+      "country_code": "CAN",
+      "area_name_ja": "トロント",
+      "area_name_en": "Toronto",
+      "popular_rate": 2,
+      "lang": -79.347015,
+      "lat": 43.651070,
+      "discription": "北米有数の大都市トロント。世界で最も暮らしやすい都市ランキングでは、常に上位をキープする都市で、世界中から留学生や観光客が訪れます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 12,
+      "country_code": "CAN",
+      "area_name_ja": "モントリオール",
+      "area_name_en": "Montreal",
+      "popular_rate": 3,
+      "lang": -73.561668,
+      "lat": 45.508888,
+      "discription": "トロントに次ぐ第2の都市、ケベック州に位置するモントリオール。ケベック州はカナダ国内で唯一、英語とフランス語を公用語とする州であり、2カ国語を学びたい方にもおすすめです。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 13,
+      "country_code": "CAN",
+      "area_name_ja": "カルガリー",
+      "area_name_en": "Calgary",
+      "lang": -114.066666,
+      "lat": 51.049999,
+      "discription": "世界遺産であるカナディアン・ロッキーの麓に接し、自然と調和する大都市です。都市部から少し行くと、力強く雄大な自然を間近で感じることができます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 14,
+      "country_code": "CAN",
+      "area_name_ja": "ビクトリア",
+      "area_name_en": "Victoria",
+      "lang": -123.329773,
+      "lat":  48.407326,
+      "discription": "「花の都」と称されるビクトリアは、年間を通して四季折々の草花が咲き誇る、英国調の歴史ある建物や街並みを楽しむことができる美しい都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 15,
+      "country_code": "AUS",
+      "area_name_ja": "シドニー",
+      "area_name_en": "Sydney",
+      "popular_rate": 2,
+      "lang": 151.209900,
+      "lat": -33.865143,
+      "discription": "オペラハウスで有名なオーストラリア最大の都市・シドニー。世界でも人気の観光・経済都市でもあり、世界中から観光客やビジネスマンが訪れ、多国籍な環境を味わうことができます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 16,
+      "country_code": "AUS",
+      "area_name_ja": "メルボルン",
+      "area_name_en": "Melbourne",
+      "popular_rate": 1,
+      "lang": 144.946457,
+      "lat": -37.840935,
+      "discription": "英国調の建物とアートが融合する芸術の街。「世界一住みやすい都市」でも上位にランクインするほど安全で公共交通機関も整備されており、お洒落で住みやすい都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 17,
+      "country_code": "AUS",
+      "area_name_ja": "ゴールドコースト",
+      "area_name_en": "Gold coast",
+      "popular_rate": 3,
+      "lang": 153.399994,
+      "lat": -28.016666,
+      "discription": "オーストラリア屈指のリゾート地ゴールドコースト。年間300日以上が晴天と言われており、またビーチも数多くあることから、マリンスポーツやサーフィンを楽しむ人が多く訪れます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 18,
+      "country_code": "AUS",
+      "area_name_ja": "ブリスベン",
+      "area_name_en": "Brisbane",
+      "lang": 153.021072,
+      "lat": -27.470125,
+      "discription": "オーストラリア第3の人口を誇るブリスベンは、川と緑に囲まれた大都市です。シドニーやメルボルンと比較し温暖な気候の都市で、物価も安く、大学が多く集まっているため留学生にも人気です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 19,
+      "country_code": "AUS",
+      "area_name_ja": "パース",
+      "area_name_en": "Pars",
+      "lang": 115.781998,
+      "lat": -31.980000,
+      "discription": "西オーストラリア州で最も大きな都市であるパース。自然に囲まれながらも都市部は綺麗に整備されており、コンパクトで洗練された都市です。豊かな自然とのんびりしした時間に癒されること間違いなし。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 20,
+      "country_code": "AUS",
+      "area_name_ja": "ケアンズ",
+      "area_name_en": "Cairns",
+      "lang": 145.754120,
+      "lat": -16.925491,
+      "discription": "豊かな自然に恵まれるケアンズは、世界遺産のグレートバリアリーフ、世界最古の熱帯雨林キュランダなどがある魅力溢れるスポットが多くあります。年間を通して温暖な常夏のリゾート地です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 21,
+      "country_code": "AUS",
+      "area_name_ja": "アデレード",
+      "area_name_en": "Adelade",
+      "lang": 138.599503,
+      "lat": -34.921230,
+      "discription": "アデレードは小さくコンパクトですがとても洗練された街です。有名大学や専門学校も多く集まり、世界中から学生が集まるオーストラリア随一の学術都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 22,
+      "country_code": "NZL",
+      "area_name_ja": "オークランド",
+      "area_name_en": "Auckland",
+      "popular_rate": 1,
+      "lang": 174.7833,
+      "lat": -36.8500,
+      "discription": "”City of Sails(帆の街)\"と呼ばれる、ニュージーランド最大の都市。美しい海に囲まれた街で、かつては船などの海上交通が栄えていた港町です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 23,
+      "country_code": "NZL",
+      "area_name_ja": "クライストチャーチ",
+      "area_name_en": "Christchurch",
+      "popular_rate": 2,
+      "lang": 172.6365,
+      "lat": -43.5309,
+      "discription": "南島最大の都市クライストチャーチは、緑溢れる街で別名「ガーデン・シティ」とも呼ばれています。ゴシック建築の美しい建物が並ぶ、英国風の街並みが特徴です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 24,
+      "country_code": "NZL",
+      "area_name_ja": "ウェリントン",
+      "area_name_en": "Wellington",
+      "lang": 174.7772,
+      "lat": -41.2889,
+      "discription": "ニュージーランドの首都ウェリントン。コンパクトな街なので、都会の賑わいと郊外の大自然が両方味わえる、ニュージーランドの魅力が詰まった都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 25,
+      "country_code": "NZL",
+      "area_name_ja": "クイーンズタウン",
+      "area_name_en": "Queens Town",
+      "popular_rate": 3,
+      "lang": 168.662643,
+      "lat": -45.031162,
+      "discription": "『女王が住むにふさわしい街』と呼ばれる、ニュージーランド屈指のリゾート地です。南アルプスの美しい山々や、”翡翠の湖\"と呼ばれるワカティプ湖を一望することができます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 26,
+      "country_code": "GBR",
+      "area_name_ja": "ロンドン",
+      "area_name_en": "London",
+      "popular_rate": 1,
+      "lang": -0.118092,
+      "lat": 51.509865,
+      "discription": "イギリスの首都ロンドンは、ローマ時代まで遡る長い歴史を持つ都市です。約300の言語が話されていると言われるほど、世界中からさまざまな国籍の人々が訪れる国際都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 27,
+      "country_code": "GBR",
+      "area_name_ja": "マンチェスター",
+      "area_name_en": "Manchester",
+      "lang": -2.200941,
+      "lat": 53.483135,
+      "discription": "イギリスの第2の都市マンチェスターは、かつては工業都市として栄えていた歴史から、古き良きイギリスと近代的でモダンな都会らしさの両方を味わえる街です。学生が多い学園都市でもあります。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 28,
+      "country_code": "GBR",
+      "area_name_ja": "オックスフォード",
+      "area_name_en": "Oxford",
+      "popular_rate": 2,
+      "lang": -1.257677,
+      "lat": 51.752022,
+      "discription": "イギリス最古の大学の街であるオックスフォードは、名高いオックスフォード大学を構成する約40ものカレッジが点在している、まさに学生の街です。学生にとって非常に生活しやすい環境が整えられています。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 29,
+      "country_code": "GBR",
+      "area_name_ja": "リバプール",
+      "area_name_en": "Liverpool",
+      "lang": -2.983333,
+      "lat": 53.400002,
+      "discription": "ザ・ビートルズの出身地として有名なイングランド北部に位置する都市。芸術やスポーツ文化の中心地であり、文化資産が多いのが特徴です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 30,
+      "country_code": "GBR",
+      "area_name_ja": "ブライトン",
+      "area_name_en": "Brighton",
+      "popular_rate": 3,
+      "lang": -0.168749,
+      "lat": 50.827930,
+      "discription": "コンパクトな海辺の街ブライトン。イギリス屈指のリゾート地ですが、ショッピングモールやカフェなども充実している非常に活気ある都市なので、生活にも困ることはなく留学生に人気の都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 31,
+      "country_code": "GBR",
+      "area_name_ja": "エディンバラ",
+      "area_name_en": "Edinbara",
+      "lang": -3.188267,
+      "lat": 55.953251,
+      "discription": "世界有数の古都として知られる、スコットランドの首都エディンバラ。街を歩くだけで歴史を感じられる、新旧の街並みや歴史が調和するこの街は、1995年に世界遺産に登録された美しい景観が特徴です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 32,
+      "country_code": "GBR",
+      "area_name_ja": "ボーンマス",
+      "area_name_en": "Bone trout",
+      "lang": -122.335167,
+      "lat": 47.608013,
+      "discription": "美しい砂浜のビーチを有する、イギリスの高級リゾート地です。『イギリス一幸せな街』にも選ばれたことがあるほど住民の満足度が高く、のんびりととした雰囲気と穏やかな気候を味わうことができます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 33,
+      "country_code": "IRL",
+      "area_name_ja": "ダブリン",
+      "area_name_en": "Dublin",
+      "popular_rate": 1,
+      "lang": -6.266155,
+      "lat": 53.350140,
+      "discription": "アイルランドの首都ダブリンは、非常にコンパクトにまとまっており、その分魅力がギュッと詰まった都市です。街の中心地には商業施設が凝集され、観光地も中心地から歩いていける距離に位置している大変便利な街です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 34,
+      "country_code": "IRL",
+      "area_name_ja": "コーク",
+      "area_name_en": "Coke",
+      "popular_rate": 2,
+      "lang": -122.335167,
+      "lat": 47.608013,
+      "discription": "アイルランド第二の都市コーク。アイルランドの教育の中心地であり、コーク市内の約10％の人口が学生と言われています。また1人/1200人が博士課程の学生という、国内でも高い水準を誇っています。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 35,
+      "country_code": "IRL",
+      "area_name_ja": "ゴールウェイ",
+      "area_name_en": "Goalway",
+      "popular_rate": 3,
+      "lang": -9.062691,
+      "lat": 53.270962,
+      "discription": "古くからの街並みや遺跡が残存しているゴールウェイ。港湾都市で市内にはコリブ川が流れ、伝統的なパブや商店もあり、お店では昔ながらの民族音楽を聴くことのできる趣ある都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 36,
+      "country_code": "MLT",
+      "area_name_ja": "バレッタ",
+      "area_name_en": "Valletta",
+      "popular_rate": 2,
+      "lang": 14.512982,
+      "lat": 35.896343,
+      "discription": "マルタの首都バレッタは、美しい世界遺産の町です。マルタ・ストーンと呼ばれるハチミツ色の石灰石でできた建物が並び、大変美しい色で統一されている難攻不落の城塞都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 37,
+      "country_code": "MLT",
+      "area_name_ja": "セントジュリアン",
+      "area_name_en": "St. Julian",
+      "popular_rate": 1,
+      "lang": 14.488344,
+      "lat": 35.918129,
+      "discription": "海に面しているマルタのリゾートエリア・セントジュリアンは、マルタ随一の繁華街でもあり、留学生や観光客で大変賑わっているエリアです。飲食店やカフェも軒を連ね海を眺めながらのんびりとした時間を過ごすことができます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 38,
+      "country_code": "MLT",
+      "area_name_ja": "スリーマ",
+      "area_name_en": "Sleehma",
+      "popular_rate": 3,
+      "lang": -122.335167,
+      "lat": 47.608013,
+      "discription": "美しいビーチがあるスリーマは、ビーチでピクニックをしたりサンセットやサンライズを楽しむ人が多くいます。対岸には世界遺産の街バレッタを望むことができ、美しい地中海に囲まれながら贅沢な時間を過ごすことができます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 39,
+      "country_code": "MLT",
+      "area_name_ja": "ゴゾ",
+      "area_name_en": "Gozo",
+      "lang": 14.251222,
+      "lat": 36.044300,
+      "discription": "マルタ島からフェリーで25分、「喜び」を意味するゴゾ島は、マルタ島とは一味違った雰囲気を味わうことができます。緑豊かで田舎的な雰囲気や、のんびりと流れる時間を楽しむことができます。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 40,
+      "country_code": "ZAF",
+      "area_name_ja": "ケープタウン",
+      "area_name_en": "Cape Town",
+      "popular_rate": 1,
+      "lang": 18.423300,
+      "lat": -33.918861,
+      "discription": "国内有数の大都市であるケープタウンは、変化に富んだ地形が特徴で、テーブルマウンテンなどの山々や牧場などの平原など、様々な美しく壮大な自然を有する港町です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 41,
+      "country_code": "ZAF",
+      "area_name_ja": "プレトリア",
+      "area_name_en": "Pretoria",
+      "popular_rate": 2,
+      "lang": 28.218370,
+      "lat": -25.731340,
+      "discription": "政府機関や諸外国の大使館が集まる、南アフリカ共和国の行政の首都。春になると美しい藤色のジャカランダの花が一斉に咲き誇り、別名「ジャカランダ・シティ」と呼ばれています。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 42,
+      "country_code": "ARE",
+      "area_name_ja": "ドバイ",
+      "area_name_en": "Dubai",
+      "popular_rate": 1,
+      "lang": 55.296249,
+      "lat": 25.276987,
+      "discription": "ドバイは世界経済フォーラム安全部門で2位に選ばれるほど、治安が良く安全な都市です。世界一高い人口建造物、煌びやかな超高層ビルやショッピングモールなどが立ち並ぶ、世界からも注目される国際都市です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 43,
+      "country_code": "ARE",
+      "area_name_ja": "アブダビ",
+      "area_name_en": "Abu Dhabi",
+      "popular_rate": 2,
+      "lang": 54.366669,
+      "lat": 24.466667,
+      "discription": "アブダビはアラブ首長国連邦の南部に位置する首長国で、連邦首都でもあります。中東経済の中心地であり、人口や収入面でもかなり高い水準を誇っており、経済的・政治的に連邦のリーダー的役割を担っている首長国です。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 44,
+      "country_code": "PHL",
+      "area_name_ja": "セブ",
+      "area_name_en": "Cebu",
+      "lang": 123.933334,
+      "lat": 10.333333,
+      "discription": "アジア随一のリゾートアイランドであるセブ。セブ島とマクタン島に分かれており、シティリゾートとビーチリゾートの2つの面を併せ持っています。物価も安くアジア圏の留学生に大人気のエリアです。"
+    ,"thumbnail": "banner.jpg"
+    },
+    {
+      "id": 45,
+      "country_code": "PHL",
+      "area_name_ja": "バギオ",
+      "area_name_en": "Buggio",
+      "lang": 7.68334,
+      "lat":  43.96144,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 46,
+      "country_code": "PHL",
+      "area_name_ja": "クラーク",
+      "area_name_en": "Clerk",
+      "lang": -122.335167,
+      "lat": 47.608013,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 47,
+      "country_code": "PHL",
+      "area_name_ja": "マニラ",
+      "area_name_en": "Manila",
+      "lang": 120.984222,
+      "lat": 14.599512,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 48,
+      "country_code": "PHL",
+      "area_name_ja": "バコロド",
+      "area_name_en": "Bacolo",
+      "lang": 122.968956,
+      "lat": 10.640739,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 49,
+      "country_code": "PHL",
+      "area_name_ja": "イロイロ",
+      "area_name_en": "Iloilo",
+      "lang": 122.562019,
+      "lat": 10.720321,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 50,
+      "country_code": "PHL",
+      "area_name_ja": "ダバオ",
+      "area_name_en": "Davao",
+      "lang": 125.395874,
+      "lat": 7.207573,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 51,
+      "country_code": "MYS",
+      "area_name_ja": "クアラルンプール",
+      "area_name_en": "kuala lumpur",
+      "lang": 101.693207,
+      "lat": 3.140853,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 52,
+      "country_code": "MYS",
+      "area_name_ja": "コタキナバル",
+      "area_name_en": "Kota Kinabalu",
+      "lang": 5.980408,
+      "lat": 116.073456,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 53,
+      "country_code": "MYS",
+      "area_name_ja": "ナンディ",
+      "area_name_en": "Nandy",
+      "lang": 35.177656,
+      "lat": 0.103623,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 54,
+      "country_code": "FJI",
+      "lang": -122.335167,
+      "lat": 47.608013,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 55,
+      "country_code": "FIN",
+      "area_name_ja": "ナンディ",
+      "area_name_en": "Helsinki",
+      "lang": 24.945831,
+      "lat": 60.192059,
+      "thumbnail": "banner.jpg"
+    },
+    {
+      "id": 56
+    }
+  ]
+}

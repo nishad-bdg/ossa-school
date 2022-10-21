@@ -1,0 +1,134 @@
+/* table{
+    width: 1200px;
+    margin: 30px 0 0 20px;
+    overflow-x: auto; 
+}
+.table_overFlow{
+    overflow-x: auto;
+}
+table tr{
+    height: 60px;
+}
+table tr td{
+    font-size: 16px;
+    color: #6B625E;
+    font-weight: normal;
+}
+table tr td:nth-child(1){
+    width: 20%;
+}
+table tr td:nth-child(2){
+    width: 30%;
+}
+table tr td:nth-child(3){
+    width: 20%;
+}
+table tr td:nth-child(4){
+    width: 30%;
+} */
+
+
+
+
+.sec_table{
+    width: 90%;
+    margin: 30px 0 0 20px;
+    @media (max-width: 1300px) {
+        width: 90%;
+    }
+    @media (max-width: 1200px) {
+        width: 95%;
+    }
+    @media (max-width: 980px) {
+        width: 98%;
+    }
+    @media (max-width: 600px) {
+        width: 98%;
+        margin: 20px 0 0 10px;
+    }
+
+}
+.first_row{
+    display: flex;
+    justify-content: space-between;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    
+}
+.sec_row{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+    margin-right: 40px;
+    @media (max-width: 600px) {
+        flex-direction: column;
+        margin-right: 0;
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+.sec_row div:nth-child(1){
+    width: 30%;
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+}
+.sec_row div:nth-child(2){
+    width: 50%;
+    @media (max-width: 600px) {
+        width: 100%;
+    }
+}
+
+.first_row div p{
+    font-size: 16px;
+    color: #6B625E;
+    margin: 0;
+    margin: 18px 0;
+    @media (max-width: 600px) {
+        margin: 5px 0;
+
+    }
+}
+
+/* .full_div{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    
+}
+.first_row_div{
+    width: 40%;
+    
+}
+
+.sec_row_div{
+    width: 40%;
+}
+
+.first_row{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.sec_row{
+    display: flex;
+    justify-content: space-between;
+}
+.first_row div p{
+    font-size: 16px;
+    color: #6B625E;
+    margin: 0;
+    margin: 18px 0;
+   
+}
+.sec_row div p{
+    font-size: 16px;
+    color: #6B625E;
+    margin: 0;
+    margin: 18px 0;
+
+} */

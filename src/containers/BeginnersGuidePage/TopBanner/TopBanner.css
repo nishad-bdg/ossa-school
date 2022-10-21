@@ -1,0 +1,77 @@
+.top-banner{
+    width: 100%;
+    height: 57vh;
+    min-height: 450px;
+    background-image: url(../image/img/topBanner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.top-banner-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    padding-left: 80px;
+    box-sizing: border-box;
+}
+.top-banner-text p{
+    width: 172px;
+    padding: 8px 0;
+    text-align: center;
+    color: #1F36C7;
+    font-size: 17px;
+    font-weight: 800;
+    word-spacing: 2px;
+    background: #ffff;
+    margin-bottom: 30px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.top-banner-text h1{
+    color: #ffff;
+    font-size: 8rem;
+    line-height: 0.6;
+    font-weight: 500;
+    margin-bottom: -1px;
+
+}
+@media only screen and (max-width: 900px){
+    .top-banner-text{
+        padding-left: 50px;
+
+    }
+    .top-banner-text h1{
+        color: #ffff;
+        font-size: 6rem;
+        line-height: 0.6;
+        font-weight: 500;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .top-banner{
+        height: 50vh;
+
+    }
+    .top-banner-text{
+        padding-left: 20px;
+
+    }
+    .top-banner-text p{
+        width: 150px;
+        padding: 5px 8px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .top-banner-text h1{
+        color: #ffff;
+        font-size: 4rem;
+        line-height: 0.6;
+        font-weight: 500;
+    }
+
+}

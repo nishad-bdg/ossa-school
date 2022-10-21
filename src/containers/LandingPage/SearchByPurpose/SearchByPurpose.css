@@ -1,0 +1,50 @@
+.search-purpose-section .search-card {
+  margin: 0;
+  box-shadow: none;
+  border: 0;
+  width: 248px !important;
+}
+.search-purpose-section .search-cardHeader img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 10px !important;
+}
+.search-purpose-section .search-cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 5px;
+}
+.search-purpose-section .location {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+}
+.search-purpose-section .location img {
+  width: 8px;
+  height: 12px;
+  margin-bottom: 3px;
+}
+.search-purpose-section .location {
+  display: block;
+  text-align: left;
+}
+.search-purpose-section .search-cardBody .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.search-purpose-section .location-name {
+  font-size: 18px;
+  text-align: left;
+}
+.search-purpose-section .content img.common-icon-btn {
+  width: 25px;
+  height: 25px;
+  top: 0;
+  right: 0;
+}

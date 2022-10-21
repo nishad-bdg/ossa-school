@@ -1,0 +1,223 @@
+.sec-container{
+    padding: 100px 0;
+}
+
+.sec-container-heading{
+    text-align: center;
+    color: #1F36C7;
+    font-size: 92px;
+    font-weight: 500;
+}
+.sec-container-text{
+    text-align: center;
+    color: black;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: Helvetica, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+.sec-container-div{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px 0;
+}
+.div-img{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.div-img img{
+    margin-left: 120px;
+}
+.div-text{
+    width: 50%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.div-text h1{
+    color: #1F36C7;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 5rem;
+}
+
+.pink-line{
+    content: "";
+    background-color: #FFD0CC;
+    height: 3px;
+    width: 200px;
+}
+.div-text p{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+    letter-spacing: 2px;
+    line-height: 2;
+    width: 550px;
+    font-family: Helvetica, sans-serif;
+}
+.sec-container-btn{
+    display: flex;
+    justify-content: center;
+}
+.sec-container-btn button{
+    text-align: center;
+    padding: 20px 80px;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: #1F36C7;
+    color: white;
+    border: none;
+}
+.sec-container-btn button{
+    position: relative;
+}
+.sec-icon-btn{
+    position: absolute;
+    top: 23px;
+    right: 20px;
+}
+@media only screen and (max-width: 1409px) {
+    .sec-container{
+        padding: 100px 30px;
+    }
+    .div-text{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .div-text p{
+        width: 100%;
+
+    }
+
+    .div-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .div-img img{
+        margin-left: 0px;
+    }
+
+
+
+}
+@media only screen and (max-width: 1160px) {
+    .sec-container-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 70px 0;
+
+    }
+    .div-img{
+        width: 100%;
+
+    }
+    .div-text{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+
+}
+
+@media only screen and (max-width: 900px){
+    .sec-container-heading{
+        text-align: center;
+        color: #1F36C7;
+        font-size: 72px;
+        font-weight: 500;
+    }
+    .sec-container-text{
+        text-align: center;
+        color: black;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: Helvetica, sans-serif;
+        letter-spacing: 2px;
+        margin-bottom: 20px;
+    }
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .sec-container{
+        padding: 80px 20px;
+
+    }
+
+    .sec-container-heading{
+        font-size: 40px;
+        font-weight: 500;
+    }
+    .sec-container-text{
+        font-size: 16px;
+    }
+    .sec-container-div{
+        flex-direction: column;
+        margin: 30px 0;
+
+    }
+
+    .div-img{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .div-img img{
+        width: 100%;
+        height: 100%;
+        margin-left: 0px;
+    }
+    .div-text{
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+
+
+    }
+    .div-text h1{
+        color: #1F36C7;
+        font-size: 2rem;
+        font-weight: 600;
+        line-height: 1.8;
+    }
+
+    .pink-line{
+        margin: 20px 0;
+    }
+    .div-text p{
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+        font-family: Helvetica, sans-serif;
+        letter-spacing: 2px;
+        line-height: 2;
+        width: 100%;
+    }
+    .sec-container-btn{
+        display: none;
+    }
+}

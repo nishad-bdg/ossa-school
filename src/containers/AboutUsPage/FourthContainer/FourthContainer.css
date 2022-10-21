@@ -1,0 +1,347 @@
+.four-component{
+    width: 100%;
+    height: 2200px;
+    background: #FFD0CC;
+    border-radius: 60px 60px 0 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.content-component{
+    width: 1254px;
+    height: 1900px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+/* .reason-firs-part{
+    margin-bottom: 80px;
+} */
+.first-part-child{
+    margin-top: 100px;
+}
+.sec-part-child{
+    margin-top: 100px;
+}
+.reason-parent-div{
+    margin-top: 100px;
+}
+.text-blue{
+    font-size: 16px;
+    color: #1A35C9;
+}
+.reason-text-blue{
+    font-size: 20px;
+    color: #1A35C9;
+}
+.img-text{
+    display: flex;
+}
+.img-text h2{
+    margin-left: 10px;
+}
+.four-pink-line{
+    content: "";
+    background-color:#FFD0CC;
+    height: 3px;
+    width: 757px;
+    margin: 20px 0;
+}
+.reason-div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+}
+.reason-pink-line{
+    content: "";
+    background-color:#FFD0CC;
+    height: 3px;
+    width: 92px;
+    margin: 15px 0;
+}
+.reason-all-text{
+    margin-left: 30px;
+}
+.reason-p{
+    width: 611px;
+}
+.plane-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+.pink-div{
+    width: 100%;
+    height: 344px;
+    padding: 20px 0;
+    background: #FFD0CC;
+    position: relative;
+}
+.pink-div-child{
+    text-align: center;
+}
+.pink-text-bg{
+    background: white;
+    padding: 10px;
+    margin: 0 5px;
+    color: #1A35C9;
+    font-size: 48px;
+}
+.pink-text-top{
+    margin-top: 40px;
+    font-size: 48px;
+    color: #1A35C9;
+}
+.pink-div-child h2{
+    font-size: 48px;
+    color: #1A35C9;
+}
+.pink-btn{
+    display: flex;
+    justify-content: center;
+}
+.pink-btn button{
+    width: 344px;
+    background-color: #1A35C9;
+    color: white;
+    padding: 20px 0;
+    border: none;
+    border-radius: 50px;
+    font-size: 24px;
+    margin-top: 50px;
+    position: relative;
+}
+.btn-icon-img{
+   align-self: flex-end;
+   position: absolute;
+   right: 20px;
+   top: 30px;
+}
+.up-ticket{
+    position: absolute;
+    top: -210px;
+    left: -50px;
+}
+.bottom-ticket{
+    position: absolute;
+    bottom: -4px;
+    right: 0;
+}
+@media only screen and (max-width: 1409px) {
+    .content-component{
+        width: 100%;
+        margin: 0 60px;
+    }
+}
+
+@media only screen and (max-width: 1300px) {
+    .up-ticket img{
+        width: 80%;
+        height: 80%;
+    }
+    .bottom-ticket img{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+@media only screen and (max-width: 1131px) {
+    .up-ticket img{
+        width: 60%;
+        height: 60%;
+    }
+}
+@media only screen and (max-width: 1100px){
+    .pink-text-bg{
+        font-size: 35px;
+    }
+    .pink-text-top{
+        margin-top: 20px;
+        font-size: 35px;
+    }
+    .pink-div-child h2{
+        font-size: 35px;
+    }
+    .pink-text-top{
+        margin-top: 30px;
+    }
+    .pink-btn button{
+        width: 300px;
+        font-size: 22px;
+        margin-top: 30px;
+    }
+    .btn-icon-img{
+        align-self: flex-end;
+        position: absolute;
+        right: 20px;
+        top: 28px;
+     }
+
+
+
+}
+@media only screen and (max-width: 900px){
+    .four-component{
+        height: 2300px;
+
+    }
+    .content-component{
+        height: 2100px;
+        border-radius: 30px;
+
+    }
+    .four-pink-line{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .reason-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reason-p{
+        width: 100%;
+    }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+    .four-component{
+        width: 100%;
+        height: 2150px;
+        padding: 0 20px;
+
+    }
+    .content-component{
+        width: 100%;
+        margin: 0 0px;
+        height: 2000px;
+        border-radius: 50px;
+
+    }
+    .four-pink-line{
+        width: 100%;
+        margin: 20px 0;
+    }
+    .img-text h2{
+        font-size: 18px;
+    }
+    .reason-div{
+        flex-direction: column;
+        align-items: center;
+    }
+    .reason-pink-line{
+        width: 120px;
+        margin: 20px 0;
+    }
+    .reason-all-text{
+        margin-left: 0px;
+        padding: 0 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .reason-p{
+        font-size: 15px;
+        width: 100%;
+    }
+    .first-part-child{
+        margin-top: 50px;
+        padding: 0 20px;
+    }
+    .sec-part-child{
+        margin-top: 50px;
+    }
+    .reason-parent-div{
+        margin-top: 50px;
+    }
+    .reaseon-cart-img{
+        margin-bottom: 40px;
+    }
+    .pink-div{
+        height: 400px;
+    }
+    .pink-text-bg{
+        background: white;
+        padding: 10px;
+        margin: 0 5px;
+        color: #1A35C9;
+        font-size: 25px;
+    }
+    .pink-text-top{
+        margin-top: 20px;
+        font-size: 25px;
+        color: #1A35C9;
+    }
+    .pink-div-child h2{
+        font-size: 25px;
+        color: #1A35C9;
+    }
+
+    .pink-btn button{
+        width: 215px;
+        padding: 20px 0;
+        font-size: 15px;
+        margin-top: 30px;
+
+    }
+    .btn-icon-img{
+        right: 15px;
+        top: 22px;
+     }
+    .pink-div-text{
+        padding-top: 140px;
+        position: relative;
+        z-index: 7;
+    }
+    .up-ticket img{
+        width: 50%;
+        height: 50%;
+    }
+    .up-ticket{
+        position: absolute;
+        top: -80px;
+        left: -50px;
+    }
+
+    .plane-img{
+        width: 600px;
+        height: 600px;
+        /* display: none; */
+        position: absolute;
+        right: 0px;
+        bottom: -550px;
+        z-index: 3;
+    }
+    .plane-img img{
+        height: 100%;
+        width: 100%;
+
+    }
+
+    .bottom-ticket{
+        display: none;
+    }
+}
+@media only screen and (max-width: 460px) {
+    .four-component{
+        width: 100%;
+        height: 2300px;
+        padding: 0 20px;
+
+    }
+    .content-component{
+        width: 100%;
+        margin: 0 0px;
+        height: 2150px;
+        border-radius: 50px;
+
+    }
+}

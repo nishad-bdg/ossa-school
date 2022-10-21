@@ -1,0 +1,65 @@
+.search-country-section .search-card {
+  margin: 0;
+  box-shadow: none;
+  border: 0;
+  width: 248px !important;
+}
+.search-country-section .search-cardHeader img {
+  width: 100%;
+  height: 140px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 10px !important;
+}
+.search-country-section .search-cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 5px;
+}
+.search-country-section .location {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  color: #000;
+}
+.search-country-section .location a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  text-align: left;
+  text-decoration: none;
+  color: #000;
+}
+.search-country-section .location img {
+  width: 8px;
+  height: 12px;
+  margin-bottom: 3px;
+}
+.search-country-section .search-country-section .location {
+  display: block;
+  text-align: left;
+}
+.search-country-section .search-cardBody .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+.search-country-section .location-name {
+  font-size: 18px;
+  text-align: left;
+  font-family: 'Yu Gothic';
+  font-weight: 500;
+  color: #000;
+}
+.search-country-section a {
+  text-decoration: none;
+}
+.search-country-section .content img.common-icon-btn {
+  width: 25px;
+  height: 25px;
+  top: 0;
+  right: 0;
+}

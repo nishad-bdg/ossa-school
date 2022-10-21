@@ -1,0 +1,149 @@
+@import '../../styles/propertySets.css';
+
+.root {
+  display: flex;
+  flex-direction: column;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+.lineItem {
+  @apply --marketplaceH4FontStyles;
+  margin: 0;
+
+  font-family: var(--fontFamilySen);
+
+  @media (--viewportMedium) {
+    padding-top: 0;
+    padding-bottom: 2px;
+  }
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.bookingPeriod {
+  flex: 1 1;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-bottom: 6px;
+
+  font-family: var(--fontFamilySen);
+
+  /** Custom Booking Dates **/
+  flex-direction: column;
+  flex-grow: 1;
+
+  @media (--viewportMedium) {
+    padding-bottom: 8px;
+  }
+}
+
+.bookingPeriodSectionRigth {
+  text-align: left;
+}
+
+.dayLabel {
+  @apply --marketplaceRegularFontStyles;
+  margin: 0;
+
+  padding-top: 2px;
+  padding-bottom: 0;
+
+  @media (--viewportMedium) {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+}
+
+.dayInfo {
+  @apply --marketplaceRegularFontStyles;
+  
+  /** Value booking **/
+  text-align: right;
+}
+
+.subTotalLineItem {
+  @apply --marketplaceH4FontStyles;
+  font-weight: var(--fontWeightBold);
+  margin: 0;
+  padding: 5px 0 1px 0;
+
+  @media (--viewportMedium) {
+    padding: 6px 0 2px 0;
+  }
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.lineItemTotal {
+  @apply --marketplaceH4FontStyles;
+  margin: 0;
+  padding-top: 6px;
+  padding-bottom: 6px;
+
+  font-family: var(--fontFamilySen);
+
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+
+  @media (--viewportMedium) {
+    padding-bottom: 2px;
+  }
+}
+.itemLabel {
+  @apply --marketplaceRegularFontStyles;
+  flex: 1;
+}
+
+.itemValue {
+  @apply --marketplaceRegularFontStyles;
+  margin: 0 0 0 10px;
+}
+
+.totalDivider {
+  /* dimensions */
+  width: 100%;
+  height: 1px;
+  margin: 12px 0 5px 0;
+
+  border: none;
+  background-color: var(--matterColorNegative);
+
+  @media (--viewportMedium) {
+    margin: 7px 0 0px 0;
+  }
+}
+
+.totalLabel {
+  @apply --marketplaceBoldFontStyles;
+
+}
+
+.totalPrice {
+  @apply --marketplaceBoldFontStyles;
+  margin: 0 0 0 10px;
+  padding-top: 0px;
+}
+
+.feeInfo {
+  @apply --marketplaceTinyFontStyles;
+  flex-shrink: 0;
+  margin: 0;
+  color: var(--matterColorAnti);
+  padding-top: 4px;
+  padding-bottom: 14px;
+
+  @media (--viewportMedium) {
+    padding-top: 11px;
+    padding-bottom: 21px;
+  }
+}

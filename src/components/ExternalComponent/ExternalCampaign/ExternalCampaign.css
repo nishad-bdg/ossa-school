@@ -1,0 +1,116 @@
+.popular-location-titleCampain {
+    /* color: white; */
+    padding-top: 25px;
+    padding-bottom: 25px;
+    /* font-size: 48px; */
+    /* font-family: 'Poppins', sans-serif; */
+}
+
+.prev-nextCampain {
+    /* margin: auto; */
+    /* margin-left: auto; */
+    display: flex;
+
+    /* flex-direction: column; */
+    justify-content: space-between;
+    margin-top: -246px;
+    margin-bottom: 120px;
+}
+
+.img-sliderCampain {
+    height: 260px;
+    width: 50%
+}
+
+
+
+#main-slider-containerCampain {
+    width: 90%;
+    height: 305px;
+}
+
+#sliderCampain {
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    white-space: nowrap;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+}
+
+#sliderCampain::-webkit-scrollbar {
+    display: none;
+}
+
+#main-slider-containerCampain {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+
+.slider-card-titleCampain,
+.slider-card-descriptionCampain {
+    margin: 5px 0px 5px 10px;
+}
+
+.slider-card-titleCampain {
+    font-weight: 400;
+    font-size: 20px;
+    /* color: white; */
+    margin-top: 10px;
+    /* color: black; */
+    padding-top: 70%;
+}
+
+.slider-card-descriptionCampain {
+    opacity: 1;
+    font-size: 13px;
+}
+
+.slider-card-imageCampain {
+    width: 100%;
+    height: 150px;
+    background-color: rgb(240 240 240 / 80%);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+.slider-icon.leftCampain,
+.slider-icon.rightCampain {
+    background: white;
+    border-radius: 100%;
+    position: absolute;
+    opacity: 0.5;
+    box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%);
+    cursor: pointer;
+}
+
+.slider-icon.leftCampain {
+    /* left: 0; */
+}
+
+.slider-icon.rightCampain {
+    right: 0;
+}
+
+.slider-icon.leftCampain:hover,
+.slider-icon.rightCampain:hover {
+    opacity: 1;
+}
+
+.slider-cardCampain {
+    width: 320px;
+    height: 270px;
+    background: white;
+    /* border-radius: 10px; */
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    /* box-shadow: 2px 2px 2px 2px rgb(0 0 0 / 12%); */
+    cursor: pointer;
+}
+
+.prev-nextCampain {}

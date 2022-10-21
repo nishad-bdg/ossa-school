@@ -1,0 +1,45 @@
+.slider{
+    margin: 50px 0 100px 0;
+    border-radius: 20px;
+    text-align: center;
+    position: relative;
+    /* overflow: hidden; */
+}
+.slider h2 {
+    position: absolute;
+    bottom: 0;
+    left: 30px;
+    color: white;
+    text-shadow: 3px 3px 20px #232323,
+    -2px 1px 30px #212121;
+}
+.slider img{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+@media only screen and (max-width: 490px){
+    .slider h2{
+        left: 30px;
+    }
+
+}
+@media only screen and (max-width: 400px){
+    .slider h2{
+      left: 30px;
+    }
+
+}
+@media only screen and (max-width: 370px){
+    .slider h2{
+      left: 30px;
+    }
+
+}
+
+@media (max-width: 767px) {
+  .slider {
+    margin: 10px 0 50px 0;
+  }
+}

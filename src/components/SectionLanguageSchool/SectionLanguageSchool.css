@@ -1,0 +1,43 @@
+.country-language-card .card-body {
+  padding: 1rem 32px;
+}
+.card-sub-title {
+  display: flex;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 52px;
+  color: var(--matterColorDark2);
+  text-transform: capitalize;
+}
+.location {
+  @apply --marketplaceInfoFontStyles;
+  display: flex;
+  flex-flow: row;
+  gap: 15px;
+  align-items: center;
+}
+.icon {
+  fill: rgba(0, 0, 0, 0.54);
+  min-width: 14px;
+  max-width: 20px;
+  height: 20px;
+}
+.desc {
+  color: var(--matterColorGraySoft);
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.desc p {
+  margin: 0;
+}
+.currency-icon {
+  width: 20px !important;
+  height: 20px !important;
+}
+a.lang-card {
+  text-decoration: none;
+}
+a:hover.lang-card {
+  text-decoration: none;
+}

@@ -1,0 +1,183 @@
+@import "../../styles/customMediaQueries.css";
+@import "../../styles/propertySets.css";
+
+.root {
+    /** Custom page **/
+}
+h3 {
+  font-family: var(--fontFamily);
+  font-weight: var(--fontWeightRegular);
+}
+ul li  {
+  padding-bottom: 10px;
+  font-family: var(--fontFamily);
+  font-weight: var(--fontWeightRegular);
+}
+ul li span {
+  font-weight: 400;
+}
+.sections {
+    margin: 0;
+    padding-top: 1px;
+}
+.section {
+    overflow: auto;
+    background-color: #f5f6f7;
+
+    padding: 30% 5% 10%;
+
+    @media (--viewportLarge) {
+        padding: 0;
+        height: 155px;
+        margin-top: 162px;
+    }
+}
+.headingContainer {
+    @media (--viewportLarge) {
+        max-width: 1056px;
+        padding: 0 24px;
+        margin: 0 auto;
+    }
+    @media (--viewportLargeWithPaddings) {
+      max-width: 1056px;
+      padding: 0 24px;
+      margin: 0 auto;
+    }
+    @media (--viewportXLarge) {
+      max-width: 1128px;
+      padding: 0 24px;
+      margin: 40px auto 117px;
+    }
+}
+
+.heading {
+    display: inline-block;
+    margin-top: 45px;
+}
+.heading::after {
+    content: "";
+    height: 8px;
+    display: block;
+    width: 100%;
+    background-color: var(--marketplaceColor);
+    margin-top: 5px;
+}
+.sectionContent {
+    @media (--viewportMedium) {
+      max-width: 100%;
+    }
+
+    @media (--viewportLarge) {
+      width: 1128px;
+      padding: 0;
+      margin: 40px auto 117px;
+    }
+}
+
+.paddingLeft30 {
+  padding-left: 30px;
+}
+.cardName {
+  padding-left: 30px;
+  text-transform: uppercase;
+}
+.formContainer {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  margin: 0 5%;
+
+  @media (--viewportLarge) {
+    flex-direction: row;
+    max-width: 1253px;
+    margin: 40px auto;
+  }
+
+  @media (--viewportXLarge) {
+    max-width: 1056px;
+    padding: 0;
+  }
+}
+.titleDetails {
+  @apply --marketplaceBoxFontStyles;
+
+  width: auto;
+  display: inline-flex;
+  margin: 0;
+}
+
+.titleDetails span::after {
+  content: "";
+  height: 2px;
+  display: block;
+  width: auto;
+  background-color: var(--marketplaceColor);
+  margin-top: 5px;
+}
+
+.panelWrapper{
+  margin: 46px 0 0 0;
+}
+.lineItem{
+  display: flex;
+  flex-flow: column;
+  margin-bottom: 15px;
+}
+.lineItem span{
+  @apply --marketplaceRegularFontStyles;
+  font-weight: 400;
+}
+.lineItem .labelName{
+  margin: 0;
+}
+.lineItem .value{
+  margin: 0;
+  display: flex;
+  align-self: flex-end;
+}
+.lineItem:last-child span{
+  font-weight: 400;
+}
+.holdPricings {
+  min-width: 280px;
+}
+
+.rowFields p{
+  color: var(--matterColorGraySoft);
+}
+
+.transactionInfo span{
+  color: var(--matterColorGraySoft);
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .formContainer {
+    flex-direction: column;
+    margin: 0 5%;
+  }
+  h3 {
+    width: 1056px;
+    margin: 25px 5% 20px;
+  }
+  .headingContainer {
+    max-width: 1056px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .sectionContent {
+    width: 1056px;
+    margin: 0 auto;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .formContainer {
+    flex-direction: column;
+    margin: 0 5%;
+  }
+  h3 {
+    margin: 40px 5% 20px;
+  }
+}

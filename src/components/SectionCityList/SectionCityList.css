@@ -1,0 +1,44 @@
+.city-list-card {
+  width: 20.5rem;
+  border-radius: 8px !important;
+}
+h4.card-title {
+  font-size: 22px;
+  line-height: 35px;
+  font-weight: 600;
+  margin: 15px 0 0;
+  text-transform: capitalize;
+  color: #3C3C3C;
+}
+a h4.card-title {
+  color: #3C3C3C;
+}
+.section-city-list.card-body {
+  font-weight: 300;
+  color: #6F6F6F;
+  padding: 0px 16px 30px;
+  text-align: left;
+  line-height: 32px;
+  font-size: 16px;
+  height: 110px;
+}
+h4.card-price {
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 600;
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #6F6F6F;
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .city-list-card {
+    width: 19.5rem;
+  }
+}
+@media only screen and (max-width: 767px) {
+  .city-list-card {
+    width: 100%;
+    padding: 0;
+    margin: 0 0 15px !important;
+  }
+}

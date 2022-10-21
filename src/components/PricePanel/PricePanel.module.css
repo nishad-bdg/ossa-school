@@ -1,0 +1,25 @@
+@import "../../styles/customMediaQueries.css";
+@import "../../styles/propertySets.css";
+
+.panelWrapper{
+    margin: 46px 0 0 0;
+}
+.lineItem{
+    display: flex;
+    flex-flow: column;
+    margin-bottom: 15px;
+}
+.lineItem span{
+    @apply --marketplaceRegularFontStyles;
+}
+.lineItem .labelName{
+    margin: 0;
+}
+.lineItem .value{
+    margin: 0;
+    display: flex;
+    align-self: flex-end;
+}
+.lineItem:last-child span{
+    font-weight: var(--fontWeightSemiBold);
+}

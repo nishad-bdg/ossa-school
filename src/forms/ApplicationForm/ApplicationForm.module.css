@@ -1,0 +1,227 @@
+@import '../../styles/customMediaQueries.css';
+@import "../../styles/propertySets.css";
+
+.root {
+	margin-top: 0px;
+}
+
+.sectionContainer {
+	padding: 0;
+	margin-bottom: 36px;
+
+	@media (--viewportMedium) {
+		padding: 0;
+		margin-bottom: 56px;
+	}
+}
+
+
+.sectionTitle {
+	/* Font */
+	color: var(--matterColorAnti);
+
+	margin-top: 0;
+	margin-bottom: 12px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	
+
+	@media (--viewportMedium) {
+		margin-top: 0;
+		margin-bottom: 24px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+}
+
+.lastSection {
+	margin-bottom: 69px;
+
+	@media (--viewportMedium) {
+		margin-bottom: 111px;
+
+		& .sectionTitle {
+			margin-bottom: 16px;
+		}
+	}
+}
+
+.error {
+	/* Font */
+	@apply --marketplaceH4FontStyles;
+	color: var(--failColor);
+	margin-top: 18px;
+	margin-bottom: 0;
+
+	@media (--viewportMedium) {
+		margin-top: 22px;
+		margin-bottom: 2px;
+	}
+}
+
+.formContainer {
+	display: flex;
+	flex-direction: column-reverse;
+	justify-content: space-between;
+	margin: 0 5%;
+  
+	@media (--viewportLarge) {
+	  flex-direction: row;
+	  max-width: 1253px;
+	  margin: 40px auto;
+	}
+  
+	@media (--viewportXLarge) {
+	  max-width: 1056px;
+	  padding: 0;
+	}
+}
+.input label,
+.select label {
+	@apply --marketplaceFormFontStyles;
+
+	width: auto;
+	display: inline-block;
+
+	@media (--viewportMedium) {
+		margin-bottom: 30px;
+	}
+}
+.input label::after,
+.select label::after {
+	content: "";
+	display: flex;
+	height: 5px;
+	width: auto;
+	background-color: var(--matterColorViolet);
+	margin-top: 5px;
+}
+.formContainer .colform,
+.formContainer .colfields {
+	display: flex;
+	flex-flow: column;
+}
+
+.formContainer .colfields {
+	flex-basis: 640px;
+}
+.formContainer .rowFields,
+.formContainer .rowFields__md {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+	gap: 50px;
+}
+.formContainer .rowFields__full {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 40px;
+	gap: 25px;
+}
+
+.tip {
+	@apply --marketplaceDefaultFontStyles;
+	color: var(--matterColorAnti);
+	margin-top: 0;
+	margin-bottom: 12px;
+	padding-top: 5px;
+	padding-bottom: 1px;
+
+	@media (--viewportMedium) {
+		margin-top: 0;
+		margin-bottom: 8px;
+		padding-top: 4px;
+		padding-bottom: 4px;
+	}
+}
+
+.subTitle {
+	margin: 5%;
+
+	@media (--viewportLarge) {
+		margin: 0;
+	}
+
+	@apply --marketplaceMessageFontStyles;
+}
+
+.titleDetails {
+	@apply --marketplaceBoxFontStyles;
+
+	width: auto;
+	display: inline-flex;
+	margin: 0;
+}
+
+.titleDetails span::after {
+	content: "";
+	height: 2px;
+	display: block;
+	width: auto;
+	background-color: var(--marketplaceColor);
+	margin-top: 5px;
+}
+
+.holdPricings {
+	min-width: 280px;
+}
+
+.name {
+	width: calc(38% - 13px);
+}
+
+.email {
+	width: calc(38% - 13px);
+}
+.input,
+.select {
+	max-width: 245px;
+	min-width: 230px;
+}
+.rowFields__full .input,
+.rowFields__full .select {
+	max-width: 100%;
+	width: 100%;
+}
+.rowFields__md .input,
+.rowFields__md .select {
+	max-width: 59%;
+	width: 59%;
+}
+
+.input input,
+.select select {
+	@apply --marketplaceCustomInputStyles;
+}
+
+.select select {
+	padding: 3px 40px 3px 12px;
+	background-size: 12px;
+	background-position: calc(100% - 14px) 16px;
+	text-transform: capitalize;
+}
+
+.boxTerms {
+	display: flex;
+}
+.buttonWrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 59px;
+	margin-bottom: 90px;
+}
+.sendButton {
+	@apply --marketplaceButtonStylesOrange;
+}
+
+.termsLink {
+	color: var(--matterColorBlueLink);
+	text-decoration: underline;
+	margin: 0px 5px;
+}
+
+
+.submitButton {
+	margin-top: 24px;
+}

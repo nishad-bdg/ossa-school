@@ -1,0 +1,62 @@
+.top-banner{
+    width: 100%;
+    height: 100%;
+    background-image: url(../image/img/topBanner.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+.top-banner-text{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 120px;
+    box-sizing: border-box;
+}
+.top-banner-text h1{
+    color: #ffff;
+    font-size: 8rem;
+    line-height: 8.5rem;
+    font-weight: 700;
+    margin-bottom: 0;
+    font-family: 'Yu Gothic';
+}
+@media only screen and (max-width: 900px){
+    .top-banner-text{
+        padding-left: 50px;
+
+    }
+    .top-banner-text h1{
+        color: #ffff;
+        font-size: 6rem;
+        line-height: 6.5rem;
+    }
+
+}
+
+@media only screen and (max-width: 600px) {
+    .top-banner{
+        height: 100vh;
+        background-position: -661px center;
+        background-size: auto;
+    }
+    .top-banner-text{
+        padding-left: 20px;
+
+    }
+    .top-banner-text p{
+        width: 150px;
+        padding: 5px 8px;
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+
+    .top-banner-text h1{
+        color: #ffff;
+        font-size: 4rem;
+        line-height: 4.5rem;
+    }
+
+}

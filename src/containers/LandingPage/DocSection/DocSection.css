@@ -1,0 +1,57 @@
+.doc-section .cardArea {
+  border: 1px solid #FFD0CC;
+}
+.doc-section .card {
+  margin: 10px;
+  background-color: #fff;
+  box-shadow: 0px 14px 55px rgba(0, 0, 0, 0.06);
+  overflow: hidden;
+  width: 370px !important;
+}
+.doc-section .cardHeader img {
+  width: 100%;
+  height: 209px;
+  object-fit: cover;
+  position: relative;
+  border-radius: 20px !important;
+}
+.doc-section .cardBody {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px 10px;
+}
+.doc-section .cardBody h4 {
+  color: #fff;
+  font-weight: 400;
+  font-size: 50px;
+  margin: 0;
+  font-family: 'Sen', sans-serif;
+}
+
+.doc-section .custom-container {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.doc-section .cardBody {
+  position: absolute;
+  bottom: 0;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+img.common-icon-btn {
+  width: 25px;
+  /* position: relative; */
+  height: 25px;
+  right: 10px;
+}
+
+@media only screen and (max-width: 767px) {
+  .doc-section .card {
+    max-width: 100%;
+    width: auto !important;
+  }
+}

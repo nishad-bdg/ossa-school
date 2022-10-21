@@ -1,0 +1,16 @@
+.asked-button-1 {
+    background-color: #00499A;
+    color: white;
+    padding: 5px 60px;
+    border-radius: 50px;
+    margin-top: 53px;
+}
+
+.asked-button-2 {
+    background-color: white;
+    border: 1px solid #00499A;
+    color: #00499A;
+    padding: 5px 20px;
+    border-radius: 50px;
+    margin-top: 10px;
+}
